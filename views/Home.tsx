@@ -12,7 +12,7 @@ export default function Home({navigation}: any) {
 
       {/* Exibir e inserir uma ou mais moedas */}
       <Cotas moedaNome="USD" icone={require('../assets/usd.png')} />
-      <Cotas moedaNome="EUR" icone={require('../assets/eur.png')} />
+      <Cotas moedaNome="EUR" icone={require('../assets/logo_eur.png')} />
 
       <TouchableOpacity
         style={styles.botao}
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
   titulo: { fontSize: 28, fontWeight: 'bold', marginBottom: 10 },
   boasVindas: { fontSize: 20, marginBottom: 20 },
   botao: {
-    backgroundColor: '#5b9eafff',
+    backgroundColor: '#3a694bff',
     padding: 15,
     marginBottom: 20,
     width: '70%',

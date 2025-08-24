@@ -20,7 +20,7 @@ export default function Financiamento() {
 
  return (
    <ScrollView contentContainerStyle={styles.container}>
-   <Image source={require('../assets/logo_finac.png')} style={styles.logo} />
+   <Image source={require('../assets/logo_financiar.png')} style={styles.logo} />
    <Text style={styles.titulo}>Simulador de Financiamento</Text>
 
 

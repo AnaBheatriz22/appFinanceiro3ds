@@ -26,7 +26,7 @@ export default function Investimento() {
 
     return (
       <ScrollView contentContainerStyle={styles.container}>
-      <Image source={require('../assets/logo_invest.png')} style={styles.logo} />
+      <Image source={require('../assets/logo_investir.png')} style={styles.logo} />
       <Text style={styles.titulo}>Simulador de Investimento</Text>
 
       <TextInput
